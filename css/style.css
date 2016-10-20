@@ -1,0 +1,89 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-wrapper.container {
+    width: 90%;
+}
+
+nav a,
+nav ul a {
+    color: #00695c;
+}
+
+nav ul a.active {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 3px solid green;
+    line-height: 3.8em;
+}
+
+section#banner {
+    width: 100%;
+    height: 90vh;
+    background-color: #275B84;
+    background: linear-gradient(circle, #9E9FA3, #275B84, #275B84, #275B84);
+    background-image: url(../images/banner_image.jpg);
+    background-size: cover;
+}
+
+.centralized {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overlay {
+    height: inherit;
+    width: 108%;
+    background-color: rgba(54, 130, 57, 0.7);
+}
+
+#banner .overlay {
+    height: inherit;
+    width: 100%;
+    background: -webkit-linear-gradient(bottom, rgba(13, 13, 13, 0.57), rgba(0, 0, 0, 0.53), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0));
+    background: -moz-linear-gradient(bottom, rgba(13, 13, 13, 0.57), rgba(0, 0, 0, 0.53), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0));
+    background: -o-linear-gradient(bottom, rgba(13, 13, 13, 0.57), rgba(0, 0, 0, 0.53), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0));
+    background: -ms-linear-gradient(bottom, rgba(13, 13, 13, 0.57), rgba(0, 0, 0, 0.53), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0));
+    background: linear-gradient(bottom, rgba(13, 13, 13, 0.57), rgba(0, 0, 0, 0.53), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0));
+    background-attachment: fixed;
+    padding-top: 1em;
+    background-size: cover;
+}
+
+section#steps_2_help {
+    margin-top: -7em;
+}
+
+section#steps_2_help .col {
+    background-image: url(../images/food_safty.jpg);
+    background-size: 100% 100%;
+}
+section#steps_2_help .col .overlay {
+    margin-left: -0.8em;
+}
+
+.col .overlay {
+    padding: 0px 1.5em;
+    display: inline-block;
+}
+
+.icon.ion-ios-analytics, .icon.ion-earth, .icon.ion-person-add, .icon.ion-ios-people, .icon.ion-android-list {
+    font-size: 6em;
+    line-height: 0;
+}
+
+#stats {
+    padding: 2em 0;
+}
+
+#stats .figures {
+    line-height: 0.5;
+}
+
+#causes > div:first-child {
+    border-left: 5px solid seagreen;
+    color: seagreen;
+    padding: 0.7em;
+}

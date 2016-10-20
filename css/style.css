@@ -169,5 +169,52 @@ body#home_body causes {
 .raise_fund_on_card_50 span.amount {
     display: block;
     font-size: 1.4em;
+}
 
+.seagreen-text{
+    color: #2e8b57 !important;
+}
+
+footer > div.container {
+width: 89.17%;
+}
+
+footer div.container > div > div:nth-child(1) > h5 {
+line-height: 26px;
+margin-top: -0.002em;
+}
+
+
+
+footer > div.container > div > div:nth-child(2) > div > a {
+padding: 0 0.6em;
+margin: 0.2em 0;
+font-size: 13px !important;
+}
+
+div.container > div > div:nth-child(3) > div > ul > li {
+margin: 1.5em 0;
+color: #616161 !important;
+padding: 0 1.2em;
+}
+
+footer > div.container i {
+font-size: 23px;
+position: absolute;
+left: 64.3rem;
+margin: -0.23em 0;
+}
+
+footer > div.container > div > div:nth-child(4) > div > span {
+margin: -3em;
+line-height: 30px;
+font-family: Caveat Bold;
+}
+
+#recent_post > ul > li > a > i {
+margin: -0.2em -12.76em;
+}
+
+footer > div.container > div, footer > div.container > div p>a {
+color: #bdbdbd !important;
 }

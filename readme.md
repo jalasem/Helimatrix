@@ -1,7 +1,6 @@
 # Helimatrix
 **A Food and water safety Organization Website**
 
-
 Helimatrix Global Haven Foundation is a Non Governmental Organization with key interest in food safety, personal and environmental hygiene.
 
 The Founder; Matthew Chris Okiroro is a retired food manager with over 20 years experience in Food safety Management in the United States of America, and recipient of NATO Medal for Service, and the Combined Federal Campaign Overseas(CFC) awards.

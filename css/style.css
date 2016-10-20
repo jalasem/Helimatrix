@@ -218,3 +218,15 @@ margin: -0.2em -12.76em;
 footer > div.container > div, footer > div.container > div p>a {
 color: #bdbdbd !important;
 }
+
+.social-icons {
+
+}
+.social-icon.btn-floating {
+    width: 40.5px;
+    height: 40.5px;
+    margin-bottom: 0.3em;
+}
+a.btn-floating.social-icon i {
+    line-height: 40.6px;
+}

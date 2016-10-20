@@ -1,8 +1,10 @@
-html, body {
+html,
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
+
 .nav-wrapper.container {
     width: 90%;
 }
@@ -64,6 +66,7 @@ section#steps_2_help .col {
     background-image: url(../images/food_safty.jpg);
     background-size: 100% 100%;
 }
+
 section#steps_2_help .col .overlay {
     margin-left: -0.8em;
 }
@@ -73,7 +76,11 @@ section#steps_2_help .col .overlay {
     display: inline-block;
 }
 
-.icon.ion-ios-analytics, .icon.ion-earth, .icon.ion-person-add, .icon.ion-ios-people, .icon.ion-android-list {
+.icon.ion-ios-analytics,
+.icon.ion-earth,
+.icon.ion-person-add,
+.icon.ion-ios-people,
+.icon.ion-android-list {
     font-size: 6em;
     line-height: 0;
 }
@@ -86,12 +93,13 @@ section#steps_2_help .col .overlay {
     line-height: 0.5;
 }
 
-#causes > div:first-child {
+#causes>div:first-child {
     border-left: 5px solid seagreen;
     color: seagreen;
     padding: 0.7em;
 }
 
+<<<<<<< HEAD
 div#padder {
     margin-top: -1em;
     height: 57px;
@@ -124,4 +132,42 @@ left: 16px;
 }
 div#padder > ul > li:nth-child(2) > i {
 left: 303px;
+=======
+.no-padding {
+    padding: 0;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+body#home_body causes {
+    border: 1px #bdbdbd solid;
+}
+
+.raise_fund_on_card_50 {
+    width: 46%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 0.7em;
+    border: 1px #bdbdbd solid;
+}
+
+.raise_fund_on_card_50.g {
+    margin-left: 0;
+}
+
+.raise_fund_on_card_50 span.small-top {
+    display: block;
+    padding-top: 6px;
+}
+
+.raise_fund_on_card_50 span.amount {
+    display: block;
+    font-size: 1.4em;
+>>>>>>> origin/master
 }

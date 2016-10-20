@@ -1,0 +1,10 @@
+{
+  "appId": "helimatrix",
+  "apiKey": "6d9f42a9c8dda7187b477bb7256f0d7aee8f100bc70b2bea7d804119c2b57e40",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

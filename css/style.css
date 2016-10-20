@@ -99,7 +99,7 @@ section#steps_2_help .col .overlay {
     padding: 0.7em;
 }
 
-<<<<<<< HEAD
+
 div#padder {
     margin-top: -1em;
     height: 57px;
@@ -132,7 +132,7 @@ left: 16px;
 }
 div#padder > ul > li:nth-child(2) > i {
 left: 303px;
-=======
+}
 .no-padding {
     padding: 0;
 }
@@ -169,5 +169,5 @@ body#home_body causes {
 .raise_fund_on_card_50 span.amount {
     display: block;
     font-size: 1.4em;
->>>>>>> origin/master
+
 }
